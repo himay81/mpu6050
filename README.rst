@@ -51,4 +51,4 @@ Issues & Bugs
 
 Please report any issues or bugs here:
 
-    https://github.com/Tijndagamer/mpu6050/issues
+    https://github.com/himay81/mpu6050/issues
