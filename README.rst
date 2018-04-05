@@ -1,7 +1,7 @@
 mpu6050
 =======
 
-A Python module for accessing the MPU-6050 digital accelerometer and gyroscope on a Raspberry Pi.
+An updated (for Python 3) Python module for accessing the MPU-6050 digital accelerometer and gyroscope on a Raspberry Pi.
 
 Example
 -------
@@ -19,7 +19,7 @@ Assuming that the address of your MPU-6050 is 0x68, you can read read accelerome
 Dependencies
 ------------
 
-You need to have the ``python-smbus`` package installed.
+You need to have the ``smbus2`` Python module installed.
 
 Installation
 ------------
@@ -42,7 +42,7 @@ Or:
 
 2. Clone the repository and run setup.py
 ::
-    
+
     git clone https://github.com/Tijndagamer/mpu6050.git
     python setup.py install
 
@@ -52,5 +52,3 @@ Issues & Bugs
 Please report any issues or bugs here:
 
     https://github.com/Tijndagamer/mpu6050/issues
-
-
